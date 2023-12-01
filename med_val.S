@@ -1,13 +1,13 @@
-/* Name:		Reid Spreiter
- * Date:		11/24/2023
+/* Name:	Reid Spreiter
+ * Date:	11/24/2023
  * Description:	Find median value of sorted array
  */
 
-    .data						// data section
+	.data						// data section
 	.type	s, %object			// defining object s
 	.size	s, 5				// single-precision values
 
-s:                            	// s array
+s:								// s array
 	.float 1.1, 2.3, 4.5, 4.7, 6.7
 
 	.text						// program section
